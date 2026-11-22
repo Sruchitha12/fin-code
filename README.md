@@ -1,7 +1,9 @@
 # fin-code
 Finance Lab – Simple explanations for all 16 experiments
+
 Experiment 1: Simulation of N-Period Binomial Model for Stock Prices
 "In this experiment, we are simulating all the possible ways in which a stock price can move over a fixed number of periods. First, we give an initial stock price of 100. We assume that in every period, the stock price can either increase by 20% or decrease by 20%. We use U to represent an upward movement and D to represent a downward movement. The code generates all the possible combinations of these upward and downward movements for three periods. Then, it calculates the stock price after every movement and stores all the possible price paths. Finally, it prints all the paths and plots them in a graph. So, the main purpose of this experiment is to see how a stock price can move in different possible ways over multiple periods."
+
 Experiment 2: European Call and Put Option Pricing using Binomial Model
 "In this experiment, we are calculating the prices of European call and put options using the binomial model. First, we provide the initial stock price, strike price, upward and downward movement factors, and risk-free interest rate. Using these values, the code calculates the risk-neutral probability, which is the probability used for option pricing in the binomial model. Then, it calculates the stock price when the market moves up and when it moves down. Based on these stock prices, it calculates the call and put option payoffs. Finally, it calculates the expected payoff and discounts it using the risk-free interest rate to get the option prices. In the N-period version, the code first calculates the payoffs at the final period and then works backwards step by step to calculate the option prices today."
 Experiment 3: American Call and Put Option Pricing using Binomial Model
